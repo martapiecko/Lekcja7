@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Telefons</string>
+    <string name="tele_lista">Lista telefonów:</string>
+    <string name="play">Graj</string>
+    <string name="stop">Stop</string>
+    <string-array name="telephones">
+        <item>Samsung Galaxy S7</item>
+        <item>Iphone 6</item>
+        <item>Sony Xperia AQUA M4</item>
+    </string-array>
+    <string name="specification">Specyfikacja:</string>
+    <string-array name="specification1">
+        <item>Wymiary:              142,40 x 69,60 x 7,90 mm</item>
+        <item>Waga:                 152,00 g</item>
+        <item>Wyświetlacz:          1440 x 2560 px (5,10") 576 ppi</item>
+        <item>Standardowa bateria:  Li-Ion 3000 mAh</item>
+        <item>Pamięć wbudowana:     32 GB</item>
+        <item>Pamięć RAM:           4 GB</item>
+        <item>System operacyjny:    Android 6.0 Marshmallow</item>
+        <item>Procesor:             Samsung Exynos 8890</item>
+        <item>Aparat tył:           12 Mpx</item>
+        <item>Aparat przód:         5 Mpx</item>
+        <item>Wprowadzony na rynek: I kwartał 2016</item>
+    </string-array>
+    <string-array name="specification2">
+        <item>Wymiary:              138,10 x 67,00 x 6,90 mm</item>
+        <item>Waga:                 129,00 g</item>
+        <item>Wyświetlacz:          750 x 1334 px (4,70") 326 ppi</item>
+        <item>Pamięć wbudowana:     16 GB</item>
+        <item>Pamięć RAM:           1 GB</item>
+        <item>System operacyjny:    iOS 8</item>
+        <item>Aparat tył:           8 Mpx</item>
+        <item>Aparat przód:         1,2 Mpx</item>
+        <item>Wprowadzony na rynek: III kwartał 2014</item>
+    </string-array>
+    <string-array name="specification3">
+        <item>Wymiary:              145,50 x 72,60 x 7,30 mm</item>
+        <item>Waga:                 136,00 g</item>
+        <item>Wyświetlacz:          720 x 1280 px (5,00") 294 ppi</item>
+        <item>Standardowa bateria:  Li-Ion 2400 mAh</item>
+        <item>Pamięć wbudowana:     8 GB</item>
+        <item>Pamięć RAM:           2 GB</item>
+        <item>System operacyjny:    Android 5.0 Lollipop</item>
+        <item>Procesor:             Qualcomm Snapdragon 615 8939</item>
+        <item>Aparat tył:           13 Mpx</item>
+        <item>Aparat przód:         5 Mpx</item>
+        <item>Wprowadzony na rynek: I kwartał 2015</item>
+    </string-array>
+    <string name="powrot">Powrót do listy telefonów</string>
+</resources>

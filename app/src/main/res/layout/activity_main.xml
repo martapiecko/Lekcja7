@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.x.lekcja7.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tele_lista"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView"/>
+
+    <ListView
+        android:id="@+id/telephones"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnNewAlertDialogList"
+        android:layout_width="55pt"
+        android:layout_height="25pt"
+        android:text="Muzyka"
+        android:layout_alignTop="@+id/btnNewAlertDialogButton"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnNewAlertDialog"
+        android:layout_width="55pt"
+        android:layout_height="25pt"
+        android:text="AlertDialog"
+        android:layout_below="@+id/btnNewCustomAlertDialog"
+        android:layout_alignStart="@+id/btnNewCustomAlertDialog" />
+
+    <Button
+        android:id="@+id/btnNewCustomAlertDialog"
+        android:layout_width="55pt"
+        android:layout_height="25pt"
+        android:text="Mój Custom AlertDialog"
+        android:layout_below="@+id/btnNewAlertDialogButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/playSound"
+        android:layout_width="55pt"
+        android:layout_height="25pt"
+        android:onClick="playSound"
+        android:text="@string/play"
+        android:layout_below="@+id/btnNewAlertDialogList"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/stopSound"
+        android:layout_width="55pt"
+        android:layout_height="25pt"
+        android:onClick="stopSound"
+        android:text="@string/stop"
+        android:layout_below="@+id/playSound"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnNewAlertDialogButton"
+        android:layout_width="55pt"
+        android:layout_height="25pt"
+        android:onClick="stopSound"
+        android:text="Wyjście"
+        android:layout_below="@+id/telephones"
+        android:layout_alignStart="@+id/btnNewCustomAlertDialog" />
+
+    <Button
+        android:id="@+id/nagrajAudio"
+        android:layout_width="55pt"
+        android:layout_height="25pt"
+        android:text="Nagraj Dzwięk"
+        android:layout_below="@+id/stopSound"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/zatrzymajAudio"
+        android:layout_width="55pt"
+        android:layout_height="25pt"
+        android:text="Zatrzymaj Nagrywanie"
+        android:layout_below="@+id/btnNewAlertDialog"
+        android:layout_alignStart="@+id/btnNewAlertDialog" />
+
+    <Button
+        android:id="@+id/odtworzNagranie"
+        android:layout_width="55pt"
+        android:layout_height="25pt"
+        android:text="Odtwórz Dzwięk"
+        android:layout_below="@+id/nagrajAudio"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/zatrzymajNagranie"
+        android:layout_width="55pt"
+        android:layout_height="25pt"
+        android:text="Zatrzymaj Dzwięk"
+        android:layout_below="@+id/zatrzymajAudio"
+        android:layout_alignStart="@+id/zatrzymajAudio" />
+
+</RelativeLayout>
